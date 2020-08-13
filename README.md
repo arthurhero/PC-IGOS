@@ -27,13 +27,18 @@ Ziwen Chen, Wenxuan Wu, Zhongang Qi
 
 *blur_utils.py*
 :   utils for smoothing curvatures on point clouds
+
 *modelnetdataset.py*
 :   PyTorch datasets for ModelNet40
+
 *pc_IGOS.py*
 :   main PC-IGOS code and evaluation code
+
 *pointconv.py*
 :   architecture of a PointConv classifier
+
 *pointconv_utils.py*
 :   utils for point cloud classifers
+
 *train_pointconv.py*
 :   training code for the PointConv classifier
