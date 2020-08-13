@@ -1,9 +1,13 @@
 # PC-IGOS
 Point Cloud Integrated-Gradients Optimized Saliency, a visualization technique that can automatically find the minimal saliency map that covers the most important features on a shape.
 
-# Author(s)
+# Authors
 
 Ziwen Chen, Wenxuan Wu, Zhongang Qi
+
+# Publication
+
+"Visualizing point cloud classifiers by curvature smoothing", in *BMVC2020*.
 
 ## Usage
 
