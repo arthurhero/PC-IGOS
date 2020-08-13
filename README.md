@@ -21,10 +21,10 @@ Ziwen Chen, Wenxuan Wu, Zhongang Qi
 
 ### Precompute blurred shapes for ModelNet40 test split
 1. Run `python3 modelnetdataset.py`. It will run the `save_all_blurs()` method defined there.
-2. If you want to save point clouds along the del/ins curves, create a folder `mkdir tensors` and toggle `visualize` to be true in `evaluate_on_all_classes()`.
 
 ### Evaluating PC-IGOS on ModelNet40 test split
 1. Run `python3 pc_IGOS.py`. The main code for PC-IGOS is `integrate_mask()`.
+2. If you want to save point clouds along the del/ins curves, create a folder `mkdir tensors` and toggle `visualize` to be true in `evaluate_on_all_classes()`.
 
 
 ## Files

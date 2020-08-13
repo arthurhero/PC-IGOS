@@ -79,7 +79,7 @@ def train():
             _, predicted = outputs.max(1)
             correct+=predicted.eq(targets).sum().item()
             total+=targets.size(0)
-            if step%100==0:
+            if step%100==99:
                 torch.save(pcnet.state_dict(), ckpt_path)
                 acc=correct/total
                 correct=0.0
